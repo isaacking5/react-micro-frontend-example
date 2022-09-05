@@ -35,6 +35,7 @@ module.exports = {
       exposes: {
         "./App": "./src/App",
         "./Button": "./src/Button",
+        "./MicroFrontend":"./src/MicroFrontend"
       },
       shared: {
         ...dependencies,
